@@ -1,6 +1,6 @@
 from django.shortcuts import render,redirect
 import requests
-API_KEY = '5b87951dd8414ad094c154044210612'
+API_KEY = '#'
 # Create your views here.
 def home(request):
     city = request.GET.get('city')
